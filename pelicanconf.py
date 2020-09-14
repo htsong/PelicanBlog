@@ -37,7 +37,7 @@ STATIC_COMMENTS = True   # enable static comments, the output path default is 'c
 THEME = "themes/pelican-blueidea"
 
 PLUGIN_PATHS = ['./plugins']
-PLUGINS = ['static_comments','pelican.plugins.embedly_cards']
+PLUGINS = ['static_comments']
 
-from pelican.plugins.embedly_cards.card_markdown import EmbedlyCardExtension
-# MD_EXTENSIONS = ['codehilite(css_class=highlight)', 'extra', EmbedlyCardExtension()]
+from embedly_cards import EmbedlyCardExtension
+MD_EXTENSIONS = ['codehilite(css_class=highlight)', 'extra', EmbedlyCardExtension()]
