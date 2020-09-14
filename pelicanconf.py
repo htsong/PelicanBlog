@@ -35,8 +35,8 @@ DEFAULT_PAGINATION = 10
 
 THEME = "themes/pelican-blueidea"
 
-PLUGIN_PATHS = ['plugins']
-PLUGINS = ['static_comments','plugins.embedly_cards']
+PLUGIN_PATHS = ['./plugins']
+PLUGINS = ['static_comments','embedly_cards']
 
 from embedly_cards import EmbedlyCardExtension
 MD_EXTENSIONS = ['codehilite(css_class=highlight)',
