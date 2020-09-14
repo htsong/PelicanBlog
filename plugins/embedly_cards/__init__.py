@@ -1,4 +1,4 @@
-__title__ = 'embedly-cards'
+__title__ = 'embedly_cards'
 __version__ = '0.2.0'
 __author__ = 'Josh Izaac'
 __credits__ = ["Josh Izaac", ]
