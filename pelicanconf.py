@@ -32,11 +32,12 @@ DEFAULT_PAGINATION = 10
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
+STATIC_COMMENTS = True   # enable static comments, the output path default is 'comments'
 
 THEME = "themes/pelican-blueidea"
 
 PLUGIN_PATHS = ['./plugins']
-PLUGINS = ['static_comments','embedly_cards.card_markdown']
+PLUGINS = ['static_comments','embedly_cards']
 
-from embedly_cards.card_markdown import EmbedlyCardExtension
-MD_EXTENSIONS = ['codehilite(css_class=highlight)', 'extra', EmbedlyCardExtension()]
+# from embedly_cards.card_markdown import EmbedlyCardExtension
+# MD_EXTENSIONS = ['codehilite(css_class=highlight)', 'extra', EmbedlyCardExtension()]
