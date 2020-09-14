@@ -39,4 +39,4 @@ PLUGIN_PATHS = ['./plugins']
 PLUGINS = ['static_comments','embedly_cards.EmbedlyCardExtension']
 
 # from embedly_cards import EmbedlyCardExtension
-# MD_EXTENSIONS = ['codehilite(css_class=highlight)', 'extra', EmbedlyCardExtension()]
+MD_EXTENSIONS = ['codehilite(css_class=highlight)', 'extra', EmbedlyCardExtension()]
