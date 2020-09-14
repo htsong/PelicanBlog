@@ -36,4 +36,4 @@ DEFAULT_PAGINATION = 10
 THEME = "themes/pelican-blueidea"
 
 PLUGIN_PATHS = ['plugins']
-PLUGINS = ['static_comments']
+PLUGINS = ['static_comments','embedly_cards']
