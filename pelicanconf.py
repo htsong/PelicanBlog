@@ -28,7 +28,7 @@ LINKS = (('Pelican', 'https://getpelican.com/'),
 SOCIAL = (('腾讯课堂', 'https://ke.qq.com/course/934385?taid=1857780&tuin=3da8917f'),
           ('GITHUB', 'https://github.com/htsong'),
           ('Email: ht_song@163.com','mailto: ht_song@163.com'),
-          ('QQ', '1034457471'),
+          ('QQ: 1034457471','mailto: 1034457471@qq.com'),
          )
 
 DEFAULT_PAGINATION = 10
