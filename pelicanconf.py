@@ -34,3 +34,6 @@ DEFAULT_PAGINATION = 10
 #RELATIVE_URLS = True
 
 THEME = "themes/pelican-blueidea"
+
+PLUGIN_PATHS = ['plugins']
+PLUGINS = ['static_comments']
