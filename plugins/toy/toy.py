@@ -8,7 +8,7 @@ from pelican import signals
 
 # Hook function, with the right parameters
 def run(path, context):
-    print(path)
+    print("By toy plugin: " + path)
 
 
 # Module entry point
