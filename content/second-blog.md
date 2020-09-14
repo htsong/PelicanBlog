@@ -6,3 +6,6 @@ Category: Review
 
 [!embedlycard](http://physics.stackexchange.com/questions/5265/cooling-a-cup-of-coffee-with-help-of-a-spoon)
 测试一下嵌入卡接插件是否可以正常工作？
+[!embedlycard?chrome=1](https://www.youtube.com/watch?v=E43-CfukEgs)
+Youtube
+[!embedlycard?chrome=1](http://www.baidu.com)
