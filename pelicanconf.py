@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*- #
 
 AUTHOR = 'ht_song@163.com'
-SITENAME = "涛声依旧"
+SITENAME = "涛声依旧 (ht_song@163.com)"
 SITEURL = ''
 
 PATH = 'content'
