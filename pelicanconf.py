@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*- #
 
 AUTHOR = 'ht_song@163.com'
-SITENAME = "涛声依旧 (ht_song@163.com)"
+SITENAME = "涛声依旧"
 SITEURL = ''
 
 PATH = 'content'
@@ -27,7 +27,8 @@ LINKS = (('Pelican', 'https://getpelican.com/'),
 # Social widget
 SOCIAL = (('腾讯课堂', 'https://ke.qq.com/course/934385?taid=1857780&tuin=3da8917f'),
           ('GITHUB', 'https://github.com/htsong'),
-          ('Email','mailto: ht_song@163.com'),
+          ('Email: ht_song@163.com','mailto: ht_song@163.com'),
+          ('QQ', '1034457471'),
          )
 
 DEFAULT_PAGINATION = 10
