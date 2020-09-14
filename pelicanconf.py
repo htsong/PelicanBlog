@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*- #
 
 AUTHOR = 'ht_song@163.com'
-SITENAME = "Hts' Blog"
+SITENAME = "涛声依旧"
 SITEURL = ''
 
 PATH = 'content'
@@ -22,11 +22,11 @@ AUTHOR_FEED_RSS = None
 LINKS = (('Pelican', 'https://getpelican.com/'),
          ('Python.org', 'https://www.python.org/'),
          ('Jinja2', 'https://palletsprojects.com/p/jinja/'),
-         ('You can modify those links in your config file', '#'),)
+         ('www.scut.edu.cn', 'http://www.scut.edu.cn'),)
 
 # Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
+SOCIAL = (('腾讯课堂', 'https://ke.qq.com/course/934385?taid=1857780&tuin=3da8917f'),
+          ('GITHUB', 'https://github.com/htsong'),)
 
 DEFAULT_PAGINATION = 10
 
