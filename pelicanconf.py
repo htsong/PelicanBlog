@@ -38,5 +38,5 @@ THEME = "themes/pelican-blueidea"
 PLUGIN_PATHS = ['./plugins']
 PLUGINS = ['static_comments','embedly_cards']
 
-from plugins.embedly_cards.card_markdown import EmbedlyCardExtension
+# from plugins.embedly_cards.card_markdown import EmbedlyCardExtension
 # MD_EXTENSIONS = ['codehilite(css_class=highlight)', 'extra', EmbedlyCardExtension()]
