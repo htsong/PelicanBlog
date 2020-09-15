@@ -16,7 +16,7 @@ Category: 开发
   <tr> <td>3</td> <td>4</td> </tr>
 </table>
 
-按照 Embdely_Cards 插件的方法嵌入Youtube视频：
+<h3> 嵌入一段 StackOverflow 的 post: </h3>
 <p>
    <a class=embedly-card data-card-chrome=0 href=http://physics.stackexchange.com/questions/5265/cooling-a-cup-of-coffee-with-help-of-a-spoon></a> 
    <script>
@@ -30,5 +30,20 @@ Category: 开发
                 }(document);
    </script> 
 </p> 
-<h3>Embedding a YouTube video <em>with</em> card border.</h3>
+
+### 按照 Embdely_Cards 插件的方法嵌入Youtube视频:
+<h3>Embedding a YouTube video <em>with</em> card border:</h3>
+<p>
+  <a class=embedly-card data-card-chrome=1 href="https://www.youtube.com/watch?v=E43-CfukEgs"></a>
+  <script>
+            !function(a){
+                var b="embedly-platform",c="script";
+                if(!a.getElementById(b)){
+                    var d=a.createElement(c);
+                    d.id=b;
+                    d.src=("https:"===document.location.protocol?"https":"http")+"://cdn.embedly.com/widgets/platform.js";
+                    var e=document.getElementsByTagName(c)[0];e.parentNode.insertBefore(d,e)}
+                }(document);
+   </script> 
+</p> 
 
