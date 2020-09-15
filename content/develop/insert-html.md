@@ -10,6 +10,14 @@ Category: 开发
 <iframe src="https://www.youtube.com/embed/VIDEO_ID" allowfullscreen seamless frameBorder="0"></iframe>
 </div>
 
+如果只看到个灰色块，也别气馁，再试试B站呗，参考了 [博客页面嵌入bilibili视频（iframe框架）推荐比例](https://www.deeplearn.site/daily-life/85.html)。
+<iframe src="//player.bilibili.com/player.html?aid=370583020&bvid=BV1eZ4y1s7HD&cid=186254421&page=1"  
+  scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" 
+  style="width:330px; height:200px"> 
+</iframe>
+
+这里面的视频地址可以在B站视频的下方分享窗口获取，可在 [在网页中使用iframe嵌入B站视频（腾讯视频同理）](https://blog.csdn.net/DSH964/article/details/80961598) 中看到具体的操作指引。
+
 测试表格插入：
 <table> 
   <tr> <td>1</td> <td>2</td> </tr> 
