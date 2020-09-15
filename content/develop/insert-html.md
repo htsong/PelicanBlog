@@ -11,7 +11,7 @@ Category: 开发
 </div>
 
 如果只看到个灰色块，也别气馁，再试试B站呗，参考了 [博客页面嵌入bilibili视频（iframe框架）推荐比例](https://www.deeplearn.site/daily-life/85.html)。
-<iframe src="//player.bilibili.com/player.html?aid=370583020&bvid=BV1eZ4y1s7HD&cid=186254421&page=1"  
+<iframe src="//player.bilibili.com/player.html?aid=370583020&page=1"  
   scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" 
   style="width:330px; height:200px"> 
 </iframe>
