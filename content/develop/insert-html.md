@@ -5,6 +5,17 @@ Category: 开发
 测试字体和特殊格式，参考了 [markdown种嵌入html标签，实现自定义样式](https://my.oschina.net/u/4404259/blog/3330517)。
 <span style='color:red'>This is red</span> //字体颜色 <ruby> 漢 <rt> ㄏㄢˋ </rt> </ruby> // 特殊字 <kbd>Ctrl</kbd>+<kbd>F9</kbd> // 按键标识 <span style="font-size:2rem; background:yellow;">**Bigger**</span> //字体大小和背景 <font face="微软雅黑" color="red" size="6">字体及字体颜色和大小</font> <font color="#0000ff">字体颜色</font> <p align="left">居左文本</p> <p align="center">居中文本</p> <p align="right">居右文本</p>
 
+测试插入图片：
+
+![堆肥机外观](https://github.com/htsong/PelicanBlog/blob/master/content/business/20200916%E5%A0%86%E8%82%A5%E6%9C%BA.png?raw=true)
+
+再试试用 img 标签, 参考了 [Markdown-图片设置（大小，居中）](https://blog.csdn.net/qq_35451572/article/details/79443467)
+<div align=center>
+  <img src="https://github.com/htsong/PelicanBlog/blob/master/content/business/20200916%E5%A0%86%E8%82%A5%E6%9C%BA.png?raw=true" 
+       width = "400" height = "200" div align=center />
+  堆肥机外观
+</div>
+
 测试一下嵌入 YOUTUBE 视频， 参考了 [Pelican YouTube](https://github.com/kura/pelican_youtube/tree/407b97b49112345ea3dfe76f1a5ae41586c4ffb1)。
 <div class="youtube youtube-16x9">
 <iframe src="https://www.youtube.com/embed/VIDEO_ID" allowfullscreen seamless frameBorder="0"></iframe>
