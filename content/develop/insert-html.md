@@ -9,11 +9,11 @@ Category: 开发
 
 ![堆肥机外观](https://github.com/htsong/PelicanBlog/blob/master/content/business/20200916%E5%A0%86%E8%82%A5%E6%9C%BA.png?raw=true)
 
-再试试用 img 标签, 参考了 [Markdown-图片设置（大小，居中）](https://blog.csdn.net/qq_35451572/article/details/79443467)
-<div align=center>
+再试试用 img 标签, 参考了 [Markdown-图片设置（大小，居中）](https://blog.csdn.net/qq_35451572/article/details/79443467)， 注意其中有错误，下面代码中已更正。
+<div align="center">
   <img src="https://github.com/htsong/PelicanBlog/blob/master/content/business/20200916%E5%A0%86%E8%82%A5%E6%9C%BA.png?raw=true" 
-       width = "400" height = "200" div align=center />
-  堆肥机外观
+       width = "400" height = "200" />
+  <p align="center">堆肥机外观</p>
 </div>
 
 测试一下嵌入 YOUTUBE 视频， 参考了 [Pelican YouTube](https://github.com/kura/pelican_youtube/tree/407b97b49112345ea3dfe76f1a5ae41586c4ffb1)。
