@@ -7,7 +7,7 @@ Category: 开发
 
 测试插入图片：
 
-![堆肥机外观](https://github.com/htsong/PelicanBlog/blob/master/content/business/20200916%E5%A0%86%E8%82%A5%E6%9C%BA.png?raw=true)
+![堆肥机外观]("../images/20200916堆肥机.png")
 
 再试试用 img 标签, 参考了 [Markdown-图片设置（大小，居中）](https://blog.csdn.net/qq_35451572/article/details/79443467)， 注意其中有错误，下面代码中已更正。
 <div align="center">
