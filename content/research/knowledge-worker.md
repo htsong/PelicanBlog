@@ -29,7 +29,7 @@ Category: 研究
 <div align=center>
   <img src="../images/20200921知识型员工-18to20关键词共现.png" 
     width = "600" height = "480" />
-  <p align="center">堆肥机外观</p>
+  <p align="center">关键词共现网络</p>
 </div>
 
 
