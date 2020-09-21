@@ -39,6 +39,7 @@ STATIC_COMMENTS = True   # enable static comments, the output path default is 'c
 
 THEME = "themes/pelican-blueidea"
 
+STATIC_PATHS = ["images"]
 PLUGIN_PATHS = ['./plugins']
 PLUGINS = ['static_comments','toy']
 
