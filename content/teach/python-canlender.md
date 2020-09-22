@@ -8,7 +8,11 @@ Category: 教学
 哲学家Aloysius Lilius对儒略历加以改革而制成的一种历法 ——《格里历》。1582年，时任罗马教皇的格列高
 利十三世予以批准颁行。
 
-![Pope Gregory XV,1591-1666](https://sh556.oss-cn-shanghai.aliyuncs.com/images/aw_wm/69/Eo3jSd634412e22.jpg)
+<div align=center>
+  <img src="https://sh556.oss-cn-shanghai.aliyuncs.com/images/aw_wm/69/Eo3jSd634412e22.jpg" 
+    width = "300" height = "300" />
+  <p align="center">Pope Gregory XV (not XIII),1591-1666</p>
+</div>
 
 公历纪年以耶稣诞生之年作为纪年的开始。在儒略历与格里高利历中，在耶稣诞生之后的日期，称为主的年份 Anno 
 Domini（A.D.）（拉丁）。而在耶稣诞生之前，称为主前Before Christ（B.C.）。但是现代学者为了淡化其宗
