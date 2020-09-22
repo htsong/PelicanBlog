@@ -8,6 +8,9 @@ Category: 教学
 哲学家Aloysius Lilius对儒略历加以改革而制成的一种历法 ——《格里历》。1582年，时任罗马教皇的格列高
 利十三世予以批准颁行。
 
+![Pope Gregory XV - Guercino (Giovanni Francesco Barbieri) (Italian (Bolognese), 1591 - 1666)]
+(https://sh556.oss-cn-shanghai.aliyuncs.com/images/aw_wm/69/Eo3jSd634412e22.jpg)
+
 公历纪年以耶稣诞生之年作为纪年的开始。在儒略历与格里高利历中，在耶稣诞生之后的日期，称为主的年份 Anno 
 Domini（A.D.）（拉丁）。而在耶稣诞生之前，称为主前Before Christ（B.C.）。但是现代学者为了淡化其宗
 教色彩以及避免非基督徒的反感而多半改称用“公元”（Common era，缩写为C.E.）与“公元前”（Before the 
@@ -89,4 +92,6 @@ print(Zellercongruence(2020, 9, 1))
 
 7. 五分钟图解公元纪年历史，[EB/OL] https://www.bilibili.com/video/BV1NJ411a779, 20191229
 
-7. 时间法则：历法的历史进程，回到2049，[DB/OL] https://www.bilibili.com/video/BV1Qx411U7hh, 20170428
+8. 时间法则：历法的历史进程，回到2049，[DB/OL] https://www.bilibili.com/video/BV1Qx411U7hh, 20170428
+
+9. Pope Gregory XV - Guercino (Giovanni Francesco Barbieri) (Italian (Bolognese), 1591 - 1666),世之歌， https://www.shizhige.com/artwork/4155/pope-gregory-xv, 20200922
