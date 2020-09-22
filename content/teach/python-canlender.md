@@ -32,11 +32,11 @@ Common Era，缩写为 B.C.E.）的说法。
 
 蔡勒公式（Zeller's congruence），是一种计算任何一日属一星期中哪一日的算法，由德国数学家克里斯提安·蔡勒推算出来。
 
-[Zeller's congruence 1](https://wikimedia.org/api/rest_v1/media/math/render/svg/c65e11cd656b95b753e220dbec1d7441d572aa7e)
+![Zeller's congruence 1](https://wikimedia.org/api/rest_v1/media/math/render/svg/c65e11cd656b95b753e220dbec1d7441d572aa7e)
 
 or 
 
-[Zeller's congruence 2](https://wikimedia.org/api/rest_v1/media/math/render/svg/b671ee256387a51343ba0c42524286a25ece7a41)
+![Zeller's congruence 2](https://wikimedia.org/api/rest_v1/media/math/render/svg/b671ee256387a51343ba0c42524286a25ece7a41)
 
 公式都是基于公历的置闰规则来考虑，公式中的符号含义如下：
 
