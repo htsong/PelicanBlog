@@ -48,6 +48,8 @@ or
 * [　]：称作高斯符号，代表向下取整，即，取不大于原数的最大整数。
 * mod：取余（这里代表括号里的答案除以7后的余数）
 
+如果对此公历的由来充满好奇，请看参考文献4，了解[蔡勒(Zeller)公式及其推导](https://zhuanlan.zhihu.com/p/79290515)。
+
 ## 代码实现
 
 ```python3
@@ -79,10 +81,12 @@ print(Zellercongruence(2020, 9, 1))
 
 3. 蔡勒公式，[EB/OL] https://zh.wikipedia.org/wiki/蔡勒公式，20200922
 
-4. 怎样计算某一天是星期几与历法中的陷阱，[DB/OL] https://www.bilibili.com/video/BV1JV411f7fM，20200401
+4. 蔡勒(Zeller)公式及其推导，https://zhuanlan.zhihu.com/p/79290515，20190822
 
-5. 历法的故事，[DB/OL] https://www.bilibili.com/video/BV15b41147Ao, 20190324
+5. 怎样计算某一天是星期几与历法中的陷阱，[DB/OL] https://www.bilibili.com/video/BV1JV411f7fM，20200401
 
-6. 五分钟图解公元纪年历史，[EB/OL] https://www.bilibili.com/video/BV1NJ411a779, 20191229
+6. 历法的故事，[DB/OL] https://www.bilibili.com/video/BV15b41147Ao, 20190324
+
+7. 五分钟图解公元纪年历史，[EB/OL] https://www.bilibili.com/video/BV1NJ411a779, 20191229
 
 7. 时间法则：历法的历史进程，回到2049，[DB/OL] https://www.bilibili.com/video/BV1Qx411U7hh, 20170428
