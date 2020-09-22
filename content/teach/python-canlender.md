@@ -10,7 +10,7 @@ Category: 教学
 
 <div align=center>
   <img src="https://sh556.oss-cn-shanghai.aliyuncs.com/images/aw_wm/69/Eo3jSd634412e22.jpg" 
-    width = "300" height = "300" />
+    width = "300" height = "400" />
   <p align="center">Pope Gregory XV (not XIII),1591-1666</p>
 </div>
 
