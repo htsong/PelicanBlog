@@ -9,13 +9,13 @@ Category: 开发
 
 <img src="http://latex.codecogs.com/png.latex?\dpi{110}&space;E=mc^2&space;" title="http://latex.codecogs.com/png.latex?\dpi{110} E=mc^2 " />
 
-The area of a circle is :math:`A_\text{c} = (\pi/4) d^2`.
+Inline Math
+Math between $..$, for example, $x^2$, will be rendered inline with respect to the current HTML block. Note: To use inline math, there must not be any whitespace before the ending $. So for example:
 
-Displayed math uses the math block:
-
-.. math::
-
-   α_t(i) = P(O_1, O_2, … O_t, q_t = S_i λ)
+Relevant inline math: $e=mc^2$
+Will not render as inline math: $40 vs $50
+Displayed Math
+Math between $$..$$ will be rendered "block style", for example, $$x^2$$, will be rendered centered in a new paragraph.
 
 
 测试插入图片：
