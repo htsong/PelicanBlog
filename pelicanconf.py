@@ -41,7 +41,7 @@ THEME = "themes/pelican-blueidea"
 
 STATIC_PATHS = ["images"]
 PLUGIN_PATHS = ['./plugins']
-PLUGINS = ['static_comments','toy','render-math']
+PLUGINS = ['static_comments','toy','render_math']
 
 # from embedly_cards import EmbedlyCardExtension
 # MD_EXTENSIONS = ['codehilite(css_class=highlight)', 'extra', EmbedlyCardExtension()]
