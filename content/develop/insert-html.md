@@ -9,10 +9,13 @@ Category: 开发
 
 <img src="http://latex.codecogs.com/png.latex?\dpi{110}&space;E=mc^2&space;" title="http://latex.codecogs.com/png.latex?\dpi{110} E=mc^2 " />
 
-函数 ${f(x)=a_nx^n+a_{n-1}x^{n-1}+a_{n-2}x^{n-2}}+\cdots$
+The area of a circle is :math:`A_\text{c} = (\pi/4) d^2`.
 
-函数 $${f(x)=a_nx^n+a_{n-1}x^{n-1}+a_{n-2}x^{n-2}}+\cdots \tag{1.1}$$
+Displayed math uses the math block:
 
+.. math::
+
+   α_t(i) = P(O_1, O_2, … O_t, q_t = S_i λ)
 
 
 测试插入图片：
