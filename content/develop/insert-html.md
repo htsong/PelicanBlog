@@ -5,6 +5,14 @@ Category: 开发
 测试字体和特殊格式，参考了 [markdown种嵌入html标签，实现自定义样式](https://my.oschina.net/u/4404259/blog/3330517)。
 <span style='color:red'>This is red</span> //字体颜色 <ruby> 漢 <rt> ㄏㄢˋ </rt> </ruby> // 特殊字 <kbd>Ctrl</kbd>+<kbd>F9</kbd> // 按键标识 <span style="font-size:2rem; background:yellow;">**Bigger**</span> //字体大小和背景 <font face="微软雅黑" color="red" size="6">字体及字体颜色和大小</font> <font color="#0000ff">字体颜色</font> <p align="left">居左文本</p> <p align="center">居中文本</p> <p align="right">居右文本</p>
 
+测试插入数学公式：
+
+函数 ${f(x)=a_nx^n+a_{n-1}x^{n-1}+a_{n-2}x^{n-2}}+\cdots$
+
+函数 $${f(x)=a_nx^n+a_{n-1}x^{n-1}+a_{n-2}x^{n-2}}+\cdots \tag{1.1}$$
+
+
+
 测试插入图片：
 
 ![堆肥机外观](../images/20200916堆肥机.png)
