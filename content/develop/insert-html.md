@@ -15,9 +15,7 @@ Markdown 中 LaTex 语法可以参考 [MarkDown 中使用 LaTeX 数学式](https
 
 感觉装载速度比较慢。
 
-* 方法2：用 [render math](https://github.com/pelican-plugins/render-math) 插件
-
-[官网](https://pypi.org/project/pelican-render-math/)
+* 方法2：用 [render math](https://github.com/pelican-plugins/render-math) 插件 [官网](https://pypi.org/project/pelican-render-math/)
 
 Inline Math
 Math between $..$, for example, $x^2$, will be rendered inline with respect to the current HTML block. Note: To use inline math, there must not be any whitespace before the ending $. So for example: ${f(x)=a_nx^n+a_{n-1}x^{n-1}+a_{n-2}x^{n-2}}+\cdots$
