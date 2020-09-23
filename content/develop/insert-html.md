@@ -7,7 +7,9 @@ Category: 开发
 
 测试插入数学公式：
 
-函数 <img src="http://latex.codecogs.com/gif.latex?${f(x)=a_nx^n+a_{n-1}x^{n-1}+a_{n-2}x^{n-2}}+\cdots$" />
+<img src="http://latex.codecogs.com/png.latex?\dpi{110}&space;E=mc^2&space;" title="http://latex.codecogs.com/png.latex?\dpi{110} E=mc^2 " />
+
+函数 ${f(x)=a_nx^n+a_{n-1}x^{n-1}+a_{n-2}x^{n-2}}+\cdots$
 
 函数 $${f(x)=a_nx^n+a_{n-1}x^{n-1}+a_{n-2}x^{n-2}}+\cdots \tag{1.1}$$
 
