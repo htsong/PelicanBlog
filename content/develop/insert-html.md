@@ -7,15 +7,27 @@ Category: 开发
 
 测试插入数学公式：
 
+Markdown 中 LaTex 语法可以参考 [MarkDown 中使用 LaTeX 数学式](https://www.cnblogs.com/kikochz/p/13570585.html)
+
+* 方法1：用 http://latex.codecogs.com 的根据 latex 生成图片的功能
+
 <img src="http://latex.codecogs.com/png.latex?\dpi{110}&space;E=mc^2&space;" title="http://latex.codecogs.com/png.latex?\dpi{110} E=mc^2 " />
 
+感觉装载速度比较慢。
+
+* 方法2：用 [render math](https://github.com/pelican-plugins/render-math) 插件
+
+[官网](https://pypi.org/project/pelican-render-math/)
+
 Inline Math
-Math between $..$, for example, $x^2$, will be rendered inline with respect to the current HTML block. Note: To use inline math, there must not be any whitespace before the ending $. So for example:
+Math between $..$, for example, $x^2$, will be rendered inline with respect to the current HTML block. Note: To use inline math, there must not be any whitespace before the ending $. So for example: ${f(x)=a_nx^n+a_{n-1}x^{n-1}+a_{n-2}x^{n-2}}+\cdots$
 
 Relevant inline math: $e=mc^2$
 Will not render as inline math: $40 vs $50
 Displayed Math
 Math between $$..$$ will be rendered "block style", for example, $$x^2$$, will be rendered centered in a new paragraph.
+
+$${f(x)=a_nx^n+a_{n-1}x^{n-1}+a_{n-2}x^{n-2}}+\cdots \tag{1.1}$$
 
 
 测试插入图片：
