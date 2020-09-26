@@ -13,7 +13,7 @@ WIKI上说，科学精神是指由科学性质所决定并贯穿于科学活动�
 
 <div align="center">
   <img src="http://n.sinaimg.cn/sinacn20200101ac/782/w640h942/20200101/3f1b-imkzenq4230417.jpg" 
-       width = "240" height = "400" />
+       width = "240" height = "360" />
   <p align="center">梁启超</p>
 </div>
 
