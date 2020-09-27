@@ -10,7 +10,7 @@ Python内置了turtle库，基本上100%复制了原始的Turtle Graphics的所�
 
 <div align="center">
   <img src="http://www.kidscode.cn/Uploads/Editor/2016-08-04/57a2a01bc4b3a.jpg" 
-       width = "240" height = "360" />
+       width = "400" height = "240" />
   <p align="center">Seymour Papert</p>
 </div>
 
