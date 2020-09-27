@@ -36,12 +36,18 @@ Python内置了turtle库，基本上100%复制了原始的Turtle Graphics的所�
 如果说到权威，还是得看Python3的[Turtle官方文档](https://docs.python.org/zh-cn/3/library/turtle.html)。
 
 以我的经验，如果有初步的python基础后，只要花上5到10分钟搞清楚下面三点，就可以快速开始使用turtle：
+
 1.海龟绘图的坐标系；
+
 2.海龟的基本运动控制，如移动、转角、……
+
 3.海龟的基本绘图指令，如抬笔、落笔、颜色、……
 
 看一段turtle的代码，自己也尝试一下：
+
 ![turtle-sample](http://www.kidscode.cn/Uploads/Editor/2016-08-04/57a2a0cf8bd03.jpg)
+
+看到海龟的杰作了吧？你是不是也有点小兴奋呢？
 
 -----------
 【参考文献】
