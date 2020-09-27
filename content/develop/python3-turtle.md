@@ -8,7 +8,12 @@ Python内置了turtle库，基本上100%复制了原始的Turtle Graphics的所�
 
 # 西摩尔·帕普特
 
-![Seymour Papert](http://www.kidscode.cn/Uploads/Editor/2016-08-04/57a2a01bc4b3a.jpg)
+<div align="center">
+  <img src="http://www.kidscode.cn/Uploads/Editor/2016-08-04/57a2a01bc4b3a.jpg" 
+       width = "240" height = "360" />
+  <p align="center">Seymour Papert</p>
+</div>
+
 
 西摩尔·帕普特（Seymour Papert，1928.2.29~2016.7.31）驾鹤西归，麻省理工学院（MIT）校长拉斐尔·赖夫（Rafael Reif）
 在 MIT 官网的讣告文里总结说，西摩尔·帕普特至少给三个领域带来了革命，分别是儿童发展、人工智能，以及科技与教育之融合。
@@ -45,7 +50,12 @@ Python内置了turtle库，基本上100%复制了原始的Turtle Graphics的所�
 
 看一段turtle的代码，自己也尝试一下：
 
-![turtle-sample](http://www.kidscode.cn/Uploads/Editor/2016-08-04/57a2a0cf8bd03.jpg)
+<div align="center">
+  <img src="http://www.kidscode.cn/Uploads/Editor/2016-08-04/57a2a0cf8bd03.jpg" 
+       width = "400" height = "240" />
+  <p align="center">turtle-sample</p>
+</div>
+
 
 看到海龟的杰作了吧？你是不是也有点小兴奋呢？
 
