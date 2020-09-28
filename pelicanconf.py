@@ -59,9 +59,8 @@ PLUGIN_PATHS = ['./plugins']
 PLUGINS = ['static_comments','toy','render_math','tag_cloud']
 
 # tag_cloud 配置(自己个性配置)
-DISPLAY_TAGS_INLINE = True
-DISPLAY_TAGS_ON_SIDEBAR = True
 TAG_CLOUD_STEPS = 4
+TAG_CLOUD_SORTING = 'size'  #'random'
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
