@@ -21,8 +21,8 @@ AUTHOR_FEED_RSS = None
 # site's frame
 DEFAULT_PAGINATION = 10
 DIRECT_TEMPLATES = ('index', 'categories', 'authors', 'archives')
-# THEME = "themes/pelican-blueidea"
-THEME = "themes/uikit"
+THEME = "themes/pelican-blueidea"
+# THEME = "themes/uikit"
 STATIC_PATHS = ["images"]
 
 # Display pages list on the top menu
