@@ -7,25 +7,12 @@
         {# First item #}
         {% if loop.first and not articles_page.has_previous() %}
             <!-- ReferTo: http://tommyblanchard.com/unique-tag-cloud-for-each-category-in-pelican -->
-            <div id="tagcloud">
-                {% for cat in tag_cloud %}
-                    {% if article.category == cat.0 %}
-                            <b><center>{{ cat.0 }} Tags</center></b>
-                            <ul class="tagcloud">
-                                {% for tag in cat.1 %}
-                                    <li class="tag-{{ tag.1 }}">
-                                        <a href="{{ SITEURL }}/{{ tag.0.url }}">
-                                            {{ tag.0 }}
-                                            {% if TAG_CLOUD_BADGE %}
-                                                <span class="badge">({{ tag.2 }})</span>
-                                            {% endif %}
-                                        </a>
-                                    </li>
-                                {% endfor %}                        
-                        </ul> 
-                     {% endif %}
-                 {% endfor %}
-            </div>
+            <!-- ReferTo: https://docs.getpelican.com/en/3.3.0/settings.html -->
+            <ul class="tagcloud">
+                {% for tag in tag_cloud %}
+                    <li class="tag-{{ tag.1 }}"><a href="{{ SITEURL }}/{{ tag.0.url }}">{{ tag.0 }}</a></li>
+                {% endfor %}
+            </ul>
 
             <aside id="featured" class="body">
                 <article>
