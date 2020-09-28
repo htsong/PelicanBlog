@@ -60,6 +60,23 @@
         </header><!-- /#banner -->
         {% block content %}
         {% endblock %}
+                        
+        <!-- ReferTo: http://tommyblanchard.com/unique-tag-cloud-for-each-category-in-pelican -->
+        <!-- ReferTo: https://docs.getpelican.com/en/3.3.0/settings.html -->
+        <!-- ReferTo: https://github.com/StevenMaude/pelican-tag-cloud -->
+        <ul class="tagcloud">
+            {% for tag in tag_cloud %}
+                <li class="tag-{{ tag.1 }}">
+                    <a href="{{ SITEURL }}/{{ tag.0.url }}">
+                    {{ tag.0 }}
+                        {% if TAG_CLOUD_BADGE %}
+                            <span class="badge">{{ tag.2 }}</span>
+                        {% endif %}
+                    </a>
+                </li>
+            {% endfor %}
+        </ul>                        
+                        
         <section id="extras" class="body">
         {% if LINKS %}
                 <div class="blogroll">
