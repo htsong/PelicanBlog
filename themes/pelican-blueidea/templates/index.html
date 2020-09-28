@@ -6,14 +6,6 @@
 
         {# First item #}
         {% if loop.first and not articles_page.has_previous() %}
-            <!-- ReferTo: http://tommyblanchard.com/unique-tag-cloud-for-each-category-in-pelican -->
-            <!-- ReferTo: https://docs.getpelican.com/en/3.3.0/settings.html -->
-            <ul class="tagcloud">
-                {% for tag in tag_cloud %}
-                    <li class="tag-{{ tag.1 }}"><a href="{{ SITEURL }}/{{ tag.0.url }}">{{ tag.0 }}</a></li>
-                {% endfor %}
-            </ul>
-
             <aside id="featured" class="body">
                 <article>
                     <h1 class="entry-title"><a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a></h1>
