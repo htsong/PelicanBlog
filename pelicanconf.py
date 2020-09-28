@@ -29,17 +29,17 @@ DISPLAY_PAGES_ON_MENU = True
 # Display categories list on the top menu
 DISPLAY_CATEGORIES_ON_MENU = True
 # Display categories list as a submenu of the top menu
-DISPLAY_CATEGORIES_ON_SUBMENU = True
+DISPLAY_CATEGORIES_ON_SUBMENU = False
 # Display the category in the article's info
-DISPLAY_CATEGORIES_ON_POSTINFO = True
+DISPLAY_CATEGORIES_ON_POSTINFO = False
 # Display the author in the article's info
 DISPLAY_AUTHOR_ON_POSTINFO = True
 # Display the search form
-DISPLAY_SEARCH_FORM = True
+DISPLAY_SEARCH_FORM = False
 # Sort pages list by a given attribute
 PAGES_SORT_ATTRIBUTE = 'Title'
 # Display the "Fork me on Github" banner
-GITHUB_URL = ('https://github.com/htsong')
+# GITHUB_URL = ('https://github.com/htsong')
 # Blogroll
 LINKS = (('Pelican', 'https://getpelican.com/'),
          ('Python.org', 'https://www.python.org/'),
