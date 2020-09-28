@@ -31,17 +31,19 @@ SOCIAL = (('腾讯课堂', 'https://ke.qq.com/course/934385?taid=1857780&tuin=3d
           ('QQ: 1034457471','mailto: 1034457471@qq.com'),
          )
 
+# site's frame
 DEFAULT_PAGINATION = 10
+DIRECT_TEMPLATES = ('index', 'categories', 'authors', 'archives')
+THEME = "themes/pelican-blueidea"
+STATIC_PATHS = ["images"]
+
+# plugins
+PLUGIN_PATHS = ['./plugins']
+PLUGINS = ['static_comments','toy','render_math']
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
 STATIC_COMMENTS = True   # enable static comments, the output path default is 'comments'
-
-THEME = "themes/pelican-blueidea"
-
-STATIC_PATHS = ["images"]
-PLUGIN_PATHS = ['./plugins']
-PLUGINS = ['static_comments','toy','render_math']
 
 # from embedly_cards import EmbedlyCardExtension
 # MD_EXTENSIONS = ['codehilite(css_class=highlight)', 'extra', EmbedlyCardExtension()]
