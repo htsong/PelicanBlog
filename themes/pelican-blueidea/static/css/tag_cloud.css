@@ -1,4 +1,4 @@
-ul.tagcloud { list-style: none;  padding: 0;}  
+ul.tagcloud { list-style: none;  padding: 0; float:right;}  
 /*ul.tagcloud{
     right: -150px;
     top: 250px;
