@@ -56,7 +56,7 @@ SOCIAL = (('腾讯课堂', 'https://ke.qq.com/course/934385?taid=1857780&tuin=3d
 
 # plugins
 PLUGIN_PATHS = ['./plugins']
-PLUGINS = ['static_comments','toy','render_math']
+PLUGINS = ['static_comments','toy','render_math','tag_cloud']
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
