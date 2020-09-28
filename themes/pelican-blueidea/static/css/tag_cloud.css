@@ -12,8 +12,10 @@ ul.tagcloud{
 }*/
 
 ul.tagcloud {
-  list-style: none;
+    list-style: none;
     padding: 0;
+    width: 800px;
+    margin: 0 auto 0 auto;
 }
 
 ul.tagcloud li {
