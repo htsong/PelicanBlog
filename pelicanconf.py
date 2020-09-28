@@ -58,6 +58,11 @@ SOCIAL = (('腾讯课堂', 'https://ke.qq.com/course/934385?taid=1857780&tuin=3d
 PLUGIN_PATHS = ['./plugins']
 PLUGINS = ['static_comments','toy','render_math','tag_cloud']
 
+# tag_cloud 配置(自己个性配置)
+DISPLAY_TAGS_INLINE = True
+DISPLAY_TAGS_ON_SIDEBAR = True
+TAG_CLOUD_STEPS = 4
+
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
 STATIC_COMMENTS = True   # enable static comments, the output path default is 'comments'
