@@ -1,10 +1,10 @@
-<!-- ul.tagcloud { list-style: none;  padding: 0;} -->
+/* ul.tagcloud { list-style: none;  padding: 0;}  */
 ul.tagcloud{
     right: -150px;
     top: 250px;
     position: absolute;
     width: 140px;
-    background: white;
+    /* background: white; */
     border-radius: 10px 10px 10px 10px;
     -moz-border-radius: 10px 10px 10px 10px;
     -webkit-border-radius: 10px 10px 10px 10px;  
