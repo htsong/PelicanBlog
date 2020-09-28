@@ -33,15 +33,16 @@ DISPLAY_CATEGORIES_ON_SUBMENU = False
 # Display the category in the article's info
 DISPLAY_CATEGORIES_ON_POSTINFO = False
 # Display the author in the article's info
-DISPLAY_AUTHOR_ON_POSTINFO = True
+DISPLAY_AUTHOR_ON_POSTINFO = False
 # Display the search form
 DISPLAY_SEARCH_FORM = False
 # Sort pages list by a given attribute
-PAGES_SORT_ATTRIBUTE = 'Title'
+# PAGES_SORT_ATTRIBUTE = 'Title'
 # Display the "Fork me on Github" banner
 # GITHUB_URL = ('https://github.com/htsong')
 # Blogroll
-LINKS = (('Pelican', 'https://getpelican.com/'),
+LINKS = (('Archives', 'https://htsong.netlify.app/archives.html'),
+         ('Pelican', 'https://getpelican.com/'),
          ('Python.org', 'https://www.python.org/'),
          ('Jinja2', 'https://palletsprojects.com/p/jinja/'),
          ('www.scut.edu.cn', 'http://www.scut.edu.cn'),)
