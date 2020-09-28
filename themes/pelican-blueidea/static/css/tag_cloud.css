@@ -1,6 +1,13 @@
-ul.tagcloud {
-  list-style: none;
-    padding: 0;
+<!-- ul.tagcloud { list-style: none;  padding: 0;} -->
+ul.tagcloud{
+    right: -150px;
+    top: 250px;
+    position: absolute;
+    width: 140px;
+    background: white;
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;  
 }
 
 ul.tagcloud li {
@@ -15,13 +22,3 @@ li.tag-1 {
     font-size: 120%;
 }
 
-div#tagcloud{   
-    right: -150px;
-    top: 250px;
-    position: absolute;
-    width: 140px;
-    background: white;
-    border-radius: 10px 10px 10px 10px;
-    -moz-border-radius: 10px 10px 10px 10px;
-    -webkit-border-radius: 10px 10px 10px 10px;
-}
