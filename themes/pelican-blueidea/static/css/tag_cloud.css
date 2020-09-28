@@ -1,5 +1,6 @@
+/*
 ul.tagcloud { list-style: none;  padding: 0; width: 140px; float:right;}  
-/*ul.tagcloud{
+ul.tagcloud{
     right: -150px;
     top: 250px;
     position: absolute;
@@ -10,6 +11,11 @@ ul.tagcloud { list-style: none;  padding: 0; width: 140px; float:right;}
     -webkit-border-radius: 10px 10px 10px 10px;  
 }*/
 
+ul.tagcloud {
+  list-style: none;
+    padding: 0;
+}
+
 ul.tagcloud li {
     display: inline-block;
 }
@@ -19,6 +25,16 @@ li.tag-0 {
 }
 
 li.tag-1 {
-    font-size: 120%;
+    font-size: 125%;
 }
 
+li.tag-2 {
+    font-size: 110%;
+}
+
+/* ... add li.tag-3 etc, as much as needed */
+
+ul.tagcloud .list-group-item span.badge {
+    background-color: grey;
+    color: white;
+}
