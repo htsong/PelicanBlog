@@ -1,4 +1,4 @@
-Title: 作为科学的经济学的发展阶段
+Title: 作为科学的经济学
 Date: 2020-09-29 08:10
 Category: 研究
 Tags: economics, development
