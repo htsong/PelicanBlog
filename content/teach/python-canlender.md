@@ -77,6 +77,28 @@ print(Zellercongruence(2020, 9, 1))
 
 有了上述函数，再打印月历就比较简便的了，这次先说到这里。
 
+**（续）@20200930**
+
+2020秋的《应用数据科学》课上庞耀彬（18级市场营销班）用Python3写的月历程序，附上代码：
+
+```python3
+
+def Zellercongruence(year, month) : 
+    if (month <= 2) : month += 12; year -= 1
+    w = (1 + 13*(month+1)// 5 + year%100 + year%100//4 + year//100//4 + year//100*5) % 7
+    return w
+
+is_leap_year = lambda year:year % 4 ==0 and year % 100 != 0 or year % 400 ==0
+days = lambda year, month: 31 if month in (1,3,5,7,8,10,12) else 30 if month in (4,6,9,11) else 29 if month == 2 and is_leap_year(year) else 28
+
+year = int(input('输入年份：')) 
+month = int(input('输入月份'))
+print('  周六 周日 周一 周二 周三 周四 周五\n' + '     '* Zellercongruence(year,month), end='')
+for num in range(1, days(year,month)+1):
+    print('%5d' % num, end ='')
+    if (Zellercongruence(year,month)+num) % 7 ==0:print('\n')
+```
+
 
 ----------
 [参考文献]
