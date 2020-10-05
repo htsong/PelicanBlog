@@ -51,6 +51,21 @@ Docker在容器中进一步封装了文件系统、网络互联等等，极大�
 
 ![VM](https://gblobscdn.gitbook.com/assets%2F-M5xTVjmK7ax94c8ZQcm%2F-M5xT_hHX2g5ldlyp9nm%2F-M5xTdXNYDmRWNH-Lqez%2Fvirtualization.png?alt=media)
 
+![Docker](https://gblobscdn.gitbook.com/assets%2F-M5xTVjmK7ax94c8ZQcm%2F-M5xT_hHX2g5ldlyp9nm%2F-M5xTdXP2scg0hxytUHA%2Fdocker.png?alt=media)
+
+对比传统虚拟机总结
+
+| 特性   |   容器  |     虚拟机| 
+|  ----  | ----  |  ----  | 
+| 启动   | 秒级    | 分钟级| 
+| 硬盘使用| 一般为 MB| 一般为 GB| 
+| 性能| 接近原生| 弱于原生| 
+| 系统支持量| 单机支持上千个容器| 一般几十个| 
+
+
+# 选择Docker的动机
+
+
 
 ---------
 【参考文献】
