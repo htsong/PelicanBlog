@@ -49,6 +49,9 @@ Docker在容器中进一步封装了文件系统、网络互联等等，极大�
 应用进程直接运行于宿主的内核，容器内没有自己的内核，而且也没有进行硬件虚拟。因此容器要比传统虚拟机更为轻便。
 
 
+![VM](https://gblobscdn.gitbook.com/assets%2F-M5xTVjmK7ax94c8ZQcm%2F-M5xT_hHX2g5ldlyp9nm%2F-M5xTdXNYDmRWNH-Lqez%2Fvirtualization.png?alt=media)
+
+
 ---------
 【参考文献】
 
